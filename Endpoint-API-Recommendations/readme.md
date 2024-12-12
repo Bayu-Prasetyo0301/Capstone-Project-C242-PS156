@@ -67,7 +67,7 @@ city (str): The city where the place is located.
 ticket_price (float): Desired ticket price.
 Example Request:
 ```
-curl "http://localhost:8000/recommendations/"
+curl "http://127.0.0.1:8000/recommendations/"
 ```
 Example JSON:
 ```
