@@ -56,7 +56,7 @@ location (str): The city to search for hotels.
 budget (float): The maximum budget for a hotel.
 Example Request:
 ```
-curl "http://localhost:8000/recommendations/?location=Yogyakarta&budget=150000000"
+curl "http://127.0.0.1:8000/recommendations/?location=Yogyakarta&budget=150000000"
 ```
 Response Body:
 ```
