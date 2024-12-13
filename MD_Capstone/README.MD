@@ -1,4 +1,4 @@
-![Logo](MD_Capstone/images/Logo.png)
+![Logo](https://raw.githubusercontent.com/Bayu-Prasetyo0301/Capstone-Project-C242-PS156/main/MD_Capstone/images/Logo.png)
 
 # TripsKuy - Your Go-To Guide and Strees-Free Travel Planner 
 Tripskuy is an application efficiently helps travelers find tourist attractions by combining destination data and machine learning algorithms. It provides personalized recommendations based on user input, including category, city, and budget. The user-friendly interface supports tourism sector development, making it a convenient vacation planning tool. This application integrates with various API's, including authentication API's from Cloud Computing and prediction APIs utilizing machine learning models. This README provides an overview of the project workflow, the technologies used, and the guide to set up and run the application.
@@ -37,9 +37,7 @@ Allows users to view destinations or hotels that they have selected as favorites
 Users can access this page to manage their profile, including settings to change the password.
 
 # Screenshots Application
-![Page 1](D:\Smt5\BANGKIT 2024 BATCH 2\Capstone\SS\jadi\19.png)
-![Page 2](D:\Smt5\BANGKIT 2024 BATCH 2\Capstone\SS\jadi\20.png)
-![Page 3](D:\Smt5\BANGKIT 2024 BATCH 2\Capstone\SS\jadi\21.png)
+![Page 1](https://raw.githubusercontent.com/Bayu-Prasetyo0301/Capstone-Project-C242-PS156/main/MD_Capstone/images/Page 1.png)
 
 
 # Installation
