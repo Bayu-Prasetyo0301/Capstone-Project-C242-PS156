@@ -37,7 +37,9 @@ Allows users to view destinations or hotels that they have selected as favorites
 Users can access this page to manage their profile, including settings to change the password.
 
 # Screenshots Application
-![Page 1](https://raw.githubusercontent.com/Bayu-Prasetyo0301/Capstone-Project-C242-PS156/main/MD_Capstone/images/Page 1.png)
+![Page 1](https://raw.githubusercontent.com/Bayu-Prasetyo0301/Capstone-Project-C242-PS156/main/MD_Capstone/images/Page%201.png)
+![Page 2](https://raw.githubusercontent.com/Bayu-Prasetyo0301/Capstone-Project-C242-PS156/main/MD_Capstone/images/Page%202.png)
+![Page 3](https://raw.githubusercontent.com/Bayu-Prasetyo0301/Capstone-Project-C242-PS156/main/MD_Capstone/images/Page%203.png)
 
 
 # Installation
