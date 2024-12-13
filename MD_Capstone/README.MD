@@ -3,7 +3,7 @@
 # TripsKuy - Your Go-To Guide and Strees-Free Travel Planner 
 Tripskuy is an application efficiently helps travelers find tourist attractions by combining destination data and machine learning algorithms. It provides personalized recommendations based on user input, including category, city, and budget. The user-friendly interface supports tourism sector development, making it a convenient vacation planning tool. This application integrates with various API's, including authentication API's from Cloud Computing and prediction APIs utilizing machine learning models. This README provides an overview of the project workflow, the technologies used, and the guide to set up and run the application.
 
-# Technologies Used
+## Technologies Used
 +Android Studio
 +Kotlin
 +Retrofit
@@ -13,26 +13,26 @@ Tripskuy is an application efficiently helps travelers find tourist attractions 
 +Firebase
 +Material Components
 
-# Tripskuy Application Features
+## Tripskuy Application Features
 
-## Welcome Page
+### Welcome Page
 New users are greeted with an introductory page explaining the benefits and workings of the Tripskuy application.
 
-## User Registration
+### User Registration
 - **Registration Form**: Users enter basic information such as email and password to create an account.
 
-## User Login
+### User Login
 - **Login Form**: Registered users can log into the application by entering their email and password.
 
-## Home Page
+### Home Page
 - **Category**: Users select the option to looking for category of destination.
 - **Destination**: Users can choose by clicking on the hotel or destination they want to search for.
 - **Best Recommendation**: users can get the best destinations around them
 
-## Favorite
+### Favorite
 Allows users to view destinations or hotels that they have selected as favorites
 
-## Profile Page
+### Profile Page
 Users can access this page to manage their profile, including settings to change the password.
 
 #Screenshots Application
