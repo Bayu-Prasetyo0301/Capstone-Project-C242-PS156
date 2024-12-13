@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "625541638853",
+    "project_id": "tripskuy",
+    "storage_bucket": "tripskuy.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625541638853:android:d4a8f9b3edf952b3a39eac",
+        "android_client_info": {
+          "package_name": "com.example.tripskuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625541638853-n6kh02lvh62g7kk6ne7uogf7pjgkqqh6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tripskuy",
+            "certificate_hash": "63337cb45b24b3aed567435ae1d1f5882a179282"
+          }
+        },
+        {
+          "client_id": "625541638853-jnnvnkmbtq22s61u567mprmdchsbmrqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdo_umJhUjlGoCzjavoSixx3oGCXWT2QU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625541638853-jnnvnkmbtq22s61u567mprmdchsbmrqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

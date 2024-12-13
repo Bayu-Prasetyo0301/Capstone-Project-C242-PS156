@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.tripskuy.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_categoryFragment"
+            app:destination="@id/categoryFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/slide_in" />
+        <action
+            android:id="@+id/action_homeFragment_to_destinasiInputFragment"
+            app:destination="@id/destinationInputFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_hotelInputFragment"
+            app:destination="@id/hotelInputFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailActivity" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.tripskuy.ui.category.CategoryFragment"
+        android:label="Category"
+        tools:layout="@layout/fragment_category">
+        <argument
+            android:name="category"
+            app:argType="string" />
+        <argument
+            android:name="recommendations"
+            app:argType="com.example.tripskuy.data.remote.response.PlaceRecommendation[]" />
+        <action
+            android:id="@+id/action_categoryFragment_to_detailActivity"
+            app:destination="@id/detailActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/detailActivity"
+        android:name="com.example.tripskuy.ui.detail.DetailActivity"
+        android:label="DetailActivity" />
+    <fragment
+        android:id="@+id/hotelInputFragment"
+        android:name="com.example.tripskuy.ui.hotel.HotelInputFragment"
+        android:label="fragment_hotel_input"
+        tools:layout="@layout/fragment_hotel_input" >
+        <action
+            android:id="@+id/action_hotelInputFragment_to_hotelRecommendationFragment"
+            app:destination="@id/hotelRecommendationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/destinationInputFragment"
+        android:name="com.example.tripskuy.ui.destinasi.DestinationInputFragment"
+        android:label="fragment_destination_input"
+        tools:layout="@layout/fragment_destination_input" >
+        <action
+            android:id="@+id/action_destinationInputFragment_to_placeRecommendationFragment2"
+            app:destination="@id/placeRecommendationFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/hotelRecommendationFragment"
+        android:name="com.example.tripskuy.ui.rekomendasi.HotelRecommendationFragment"
+        android:label="Hotel Recommendations">
+        <argument
+            android:name="hotelRecommendations"
+            app:argType="com.example.tripskuy.data.remote.response.HotelRecommendation[]"/>
+    </fragment>
+    <fragment
+        android:id="@+id/placeRecommendationFragment2"
+        android:name="com.example.tripskuy.ui.rekomendasi.PlaceRecommendationFragment"
+        android:label="Place Recommendation Fragment">
+        <argument
+            android:name="placeRecommendations"
+            app:argType="com.example.tripskuy.data.remote.response.PlaceRecommendation[]"/>
+    </fragment>
+    <activity
+        android:id="@+id/splashScreenActivity"
+        android:name="com.example.tripskuy.ui.login.SplashScreenActivity"
+        android:label="activity_splash_screen"
+        tools:layout="@layout/activity_splash_screen" />
+    <activity
+        android:id="@+id/signInActivity"
+        android:name="com.example.tripskuy.ui.login.SignInActivity"
+        android:label="SignInActivity" />
+    <activity
+        android:id="@+id/signUpActivity"
+        android:name="com.example.tripskuy.ui.login.SignUpActivity"
+        android:label="SignUpActivity" />
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.example.tripskuy.ui.home.FavoriteFragment"
+        android:label="FavoriteFragment" />
+    <activity
+        android:id="@+id/navigation_profile"
+        android:name="com.example.tripskuy.ui.profile.Profile"
+        android:label="Profile" />
+</navigation>

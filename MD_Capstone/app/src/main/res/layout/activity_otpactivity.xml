@@ -1,0 +1,100 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:padding="16dp"
+    tools:context=".ui.login.OTPActivity">
+
+    <ImageView
+        android:id="@+id/img_verification"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/imageverify"
+        android:src="@drawable/img_verification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_verification_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/verification"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/img_verification"
+        app:layout_constraintStart_toStartOf="@id/img_verification"
+        app:layout_constraintTop_toBottomOf="@id/img_verification" />
+
+    <TextView
+        android:id="@+id/tv_verification_subtitle"
+        android:layout_width="152dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/masukkan_kode_otp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_verification_title"
+        app:layout_constraintStart_toStartOf="@id/tv_verification_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_verification_title" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_text_field"
+        app:boxBackgroundMode="none"
+        app:layout_constraintEnd_toEndOf="@id/tv_verification_subtitle"
+        app:layout_constraintStart_toStartOf="@id/tv_verification_subtitle"
+        app:layout_constraintTop_toBottomOf="@id/tv_verification_subtitle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_otp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:drawableEnd="@drawable/ic_eye_open"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="@string/masukkan_otp"
+            android:inputType="numberPassword"
+            android:maxLength="6"
+            android:padding="12dp"
+            android:textSize="18sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#0288D1"
+        android:padding="12dp"
+        android:text="@string/verification"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout2"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+
+    <TextView
+        android:id="@+id/tv_resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/kirim_ulang_otp"
+        android:textColor="#01579B"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/btn_verify"
+        app:layout_constraintStart_toStartOf="@id/btn_verify"
+        app:layout_constraintTop_toBottomOf="@id/btn_verify" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
