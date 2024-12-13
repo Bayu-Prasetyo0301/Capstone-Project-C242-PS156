@@ -4,14 +4,15 @@
 Tripskuy is an application efficiently helps travelers find tourist attractions by combining destination data and machine learning algorithms. It provides personalized recommendations based on user input, including category, city, and budget. The user-friendly interface supports tourism sector development, making it a convenient vacation planning tool. This application integrates with various API's, including authentication API's from Cloud Computing and prediction APIs utilizing machine learning models. This README provides an overview of the project workflow, the technologies used, and the guide to set up and run the application.
 
 ## Technologies Used
-+Android Studio
-+Kotlin
-+Retrofit
-+OkHttp
-+Glide
-+Maps SDK for Android
-+Firebase
-+Material Components
+- Android Studio
+- Kotlin
+- Retrofit
+- OkHttp
+- Glide
+- Maps SDK for Android
+- Firebase
+- Material Components
+
 
 ## Tripskuy Application Features
 
@@ -35,13 +36,13 @@ Allows users to view destinations or hotels that they have selected as favorites
 ### Profile Page
 Users can access this page to manage their profile, including settings to change the password.
 
-#Screenshots Application
+# Screenshots Application
 ![Page 1](D:\Smt5\BANGKIT 2024 BATCH 2\Capstone\SS\jadi\19.png)
 ![Page 2](D:\Smt5\BANGKIT 2024 BATCH 2\Capstone\SS\jadi\20.png)
 ![Page 3](D:\Smt5\BANGKIT 2024 BATCH 2\Capstone\SS\jadi\21.png)
 
 
-#Installation
+# Installation
 1.Clone this Project to your Computer
 
 git clone https://github.com/Bayu-Prasetyo0301/Capstone-Project-C242-PS156.git
